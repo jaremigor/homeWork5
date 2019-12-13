@@ -1,0 +1,256 @@
+@media screen and (max-width:1320px) {
+  .container.mainBox_services {
+    width: 70%;
+
+    .mainBox_services__box {
+      padding: 0 16% 30px 16%;
+    }
+  }
+  .what_left {
+    width: 40%;
+  }
+  .what_left__content {
+    width: 88%;
+  }
+}
+@media screen and (max-width:1200px) {
+  .container.mainBox_services {
+    width: 80%;
+  }
+
+  .what_left__content {
+    width: 100% !important;
+  }
+  .what_right__box__img img {
+    margin: 0;
+  }
+
+  .mainBox_2__our__box {
+    width: 74% !important;
+
+    .our__box.social {
+      padding: 1px 36% !important;
+    }
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .header_center {
+    width: 66%!important;
+  }
+
+  .block_1__left {
+    width: 100% !important;
+  }
+
+  .block_1__right {
+    display: none;
+  }
+
+  .mainBox_2__top {
+    width: 52%;
+  }
+
+  .container.mainBox_services {
+    width: 90%;
+  }
+
+  .mainBox_2__form__box {
+    width: 80%;
+  }
+
+  .container_footer {
+    padding: 70px 20px;
+  }
+}
+
+
+@media screen and (max-width:830px) {
+  .header_center {
+    display: none!important;
+  }
+  .header_mob_menu {
+    display: block!important;
+  }
+
+  .mainBox_2__business {
+    flex-direction: column!important;
+    height: 240px!important;
+
+    .mainBox_2__business__top {
+      width: 100%!important;
+      height: 50%;
+    }
+    .mainBox_2__business__bottom {
+      width: 100%!important;
+      height: 50%;
+    }
+  }
+
+  .container.mainBox_2__form {
+    width: 100%;
+  }
+  .mainBox_2__form__box {
+    width: 90%;
+  }
+  .mainBox_2__our__box {
+    width: 100%!important;
+  }
+  .what_left {
+    padding: 30px 0 0 0 !important;
+  }
+  .what_right__fa {
+    display: none !important;
+  }
+  .what_right__box {
+    height: 50% !important;
+  }
+  .our__box.social {
+    padding: 1px 30% !important;
+  }
+  .footer_right__menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width:770px) {
+  .mainBox_2__center {
+    flex-direction: column !important;
+
+    .mainBox_2__center__box {
+      width: 100%;
+      display: block;
+      margin-top: 13px;
+      text-align: left;
+      padding-top: 10px;
+
+      & img {
+        float: left;
+      }
+    }
+  }
+
+  .our__box {
+    padding: 20px 12% !important;
+  }
+  .mainBox_2__what {
+    flex-wrap: wrap;
+    flex-direction: column !important;
+
+    .what_left {
+      display: flex;
+      width: 100% !important;
+      height: 40%;
+      /*padding: 14px 0 0 0 !important;*/
+
+      .what_left__content {
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+
+        & p {
+          margin: 20px 0 30px 0;
+        }
+
+        & h1 {
+          font-size: 200%;
+        }
+        a.button {
+          display: block;
+          width: 145px;
+        }
+      }
+    }
+    .what_right {
+      height: 60% !important;
+      width: 100% !important;
+
+      .what_right__box {
+        .what_right__box__text {
+          height: 86%;
+        }
+      }
+    }
+  }
+  .form__box__line {
+    flex-direction: column !important;
+
+    .forms__border {
+      width: 100% !important;
+    }
+  }
+}
+@media screen and (max-width:720px) {
+  .mainBox_2__center {
+    margin-top: 10px;
+  }
+
+  .mainBox_services__box {
+    padding: 0 10% 30px 10% !important;
+  }
+
+  .what_left {
+    padding: 0 !important;
+    .what_left__content {
+      & p {
+        margin: 8px 0 8px 0 !important;
+      }
+  }
+
+  }
+}
+@media screen and (max-width:560px) {
+  .container_header {
+    padding: 35px 20px 0 20px !important;
+
+    .header_right {
+      display: none;
+    }
+  }
+  .block_1 {
+    padding: 20px 20px 0 20px !important;
+  }
+
+  .mainBox_2__top {
+    width: 80%;
+  }
+
+  .business_box img {
+    margin: 0 5px 0 10px !important;
+  }
+
+  .mainBox_services__box {
+    padding: 0 0 30px 0 !important;
+  }
+
+  .what_right {
+    display: none !important;
+  }
+  .what_left {
+    height: 100% !important;
+    &__content {
+      height: 100%;
+      justify-content: space-around;
+    }
+  }
+  .container {
+    width: 100%;
+    .our__box.social {
+      padding: 1px 25% !important;
+    }
+  }
+  .form__box.text_3 {
+    padding: 20px 3%;
+  }
+  .container_footer {
+    flex-direction: column;
+    padding: 40px 20px;
+
+    .footer_right {
+      margin-top: 20px;
+    }
+  }
+  /*.mainBox_2__business__top.business_box img {
+    margin: 0 5px 0 10px;
+  }*/
+}
